@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "url": "https://github.com/Plushtoast/dsa5-glueandhammer",
     "manifest": "https://raw.githubusercontent.com/Plushtoast/dsa5-glueandhammer/master/module.json",
-    "download": "https://github.com/Plushtoast/dsa5-glueandhammer/releases/download/1.0.0/dsa5-glueandhammer-1.0.00.zip",
+    "download": "https://github.com/Plushtoast/dsa5-glueandhammer/releases/download/1.0.0/dsa5-glueandhammer-1.0.0.zip",
     "languages": [{
             "lang": "de",
             "name": "Deutsch",
