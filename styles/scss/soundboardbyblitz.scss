@@ -1,0 +1,22 @@
+#soundboard-app{
+    &.window-app {
+        
+        .window-header{
+            .header-button,.window-title{
+                margin-top: -2px;
+            }
+        } 
+        &:after{
+            content: none;
+        }
+
+        .window-content{
+            margin-top: 15px;
+            position: initial;
+        }
+
+        .window-resizable-handle{
+            right: 0px;
+        }
+    }
+}
