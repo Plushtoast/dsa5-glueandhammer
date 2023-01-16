@@ -6,6 +6,9 @@ In the FVTT Game Systems Menu, click Install System and enter the Manifest URL: 
 
 ## Current Features
 * CSS (style) fix for the module "Soundboard by Blitz"
+* Config file for automated animations (you are invited to submit your own or extend the existing one)
+    - Open automated animations settings (extra module)
+    - load the configuration file located in modules/dsa5-glueandhammer/configs/automatedanimations
 
 # Contribution
 Feel free to suggest or provide additional functions or features via an issue or a pull request.
