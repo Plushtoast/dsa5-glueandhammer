@@ -5,6 +5,7 @@ This modules provides everything that doesn't quite fit (yet?) into the TDE/DSA 
 In the FVTT Game Systems Menu, click Install System and enter the Manifest URL: `https://raw.githubusercontent.com/Plushtoast/dsa5-glueandhammer/master/system.json`
 
 ## Current Features
+* Button to configure the module "Splatter" for TDE/DSA in the settings
 * CSS (style) fix for the module "Soundboard by Blitz"
 * Config file for automated animations (you are invited to submit your own or extend the existing one)
     - Open automated animations settings (extra module)

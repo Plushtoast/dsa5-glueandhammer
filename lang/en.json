@@ -1,1 +1,6 @@
-{}
+{
+    "DSASETTINGS": {
+        "configureSplatter": "Configure Splatter",
+        "configureSplatterHint": "Automatically configure the module splatter with all required settings."
+    }
+}
