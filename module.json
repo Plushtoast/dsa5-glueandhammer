@@ -1,10 +1,10 @@
 {
   "title": "The Dark Eye 5th Ed. - Glue and Hammer",
   "description": "This modules provides everything that doesn't quite fit (yet?) into the TDE/DSA system. This might include macros, css compatibility fixes for other modules and some minor functions.",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "url": "https://github.com/Plushtoast/dsa5-glueandhammer",
   "manifest": "https://raw.githubusercontent.com/Plushtoast/dsa5-glueandhammer/master/module.json",
-  "download": "https://github.com/Plushtoast/dsa5-glueandhammer/releases/download/1.0.4/dsa5-glueandhammer-1.0.4.zip",
+  "download": "https://github.com/Plushtoast/dsa5-glueandhammer/releases/download/1.1.0/dsa5-glueandhammer-1.1.0.zip",
   "languages": [
     {
       "lang": "de",
@@ -38,19 +38,14 @@
         "id": "dsa5",
         "type": "system",
         "compatibility": {
-          "minimum": "4.0.0"
+          "minimum": "6.0.0"
         }
       }
     ]
   },
   "compatibility": {
-    "minimum": "10",
-    "verified": "11",
-    "maximum": "11"
-  },
-  "name": "dsa5-glueandhammer",
-  "minimumCoreVersion": "10",
-  "packFolders": [
-
-  ]
+    "minimum": "12",
+    "verified": "12",
+    "maximum": "12"
+  }
 }
