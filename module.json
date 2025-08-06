@@ -3,7 +3,7 @@
   "description": "This modules provides everything that doesn't quite fit (yet?) into the TDE/DSA system. This might include macros, css compatibility fixes for other modules and some minor functions.",
   "version": "1.2.0",
   "url": "https://github.com/Plushtoast/dsa5-glueandhammer",
-  "manifest": "https://raw.githubusercontent.com/Plushtoast/dsa5-glueandhammer/master/module.json",
+  "manifest": "https://raw.githubusercontent.com/Plushtoast/dsa5-glueandhammer/foundry13/module.json",
   "download": "https://github.com/Plushtoast/dsa5-glueandhammer/releases/download/1.2.0/dsa5-glueandhammer-1.2.0.zip",
   "languages": [
     {
