@@ -1,16 +1,25 @@
+import { AnimationLoader } from "./animationsimporter.js";
+
 Hooks.once("init", () => {
-    if(moduleEnabled("splatter")) {
+    if (moduleEnabled("splatter")) {
         game.settings.registerMenu("dsa5-glueandhammer", "configureSplatter", {
-            name: game.i18n.localize("DSASETTINGS.configureSplatter"),
-            label: game.i18n.localize("DSASETTINGS.configureSplatter"),
-            hint: game.i18n.localize("DSASETTINGS.configureSplatterHint"),
+            name: "DSASETTINGS.configureSplatter",
+            label: "DSASETTINGS.configureSplatter",
+            hint: "DSASETTINGS.configureSplatterHint",
             type: ConfigureSplatter,
             restricted: false
-        })    }
-    
+        })
+    }
+    game.settings.registerMenu('dsa5-glueandhammer', 'configureAutomatedAnimations', {
+        name: "DSASETTINGS.configureAutomatedAnimations",
+        label: "DSASETTINGS.configureAutomatedAnimations",
+        hint: "DSASETTINGS.configureAutomatedAnimationsHint",
+        type: AnimationLoader,
+        restricted: true,
+    });
 })
 
-class ConfigureSplatter extends FormApplication {
+class ConfigureSplatter extends foundry.applications.api.HandlebarsApplicationMixin(foundry.applications.api.ApplicationV2) {
     async render() {
         await game.settings.set("splatter", "creatureType", "creatureType")
         await game.settings.set("splatter", "currentHp", "status.wounds.value")

@@ -1,0 +1,15 @@
+<div>
+    <p>{{{localize 'dsa5-glueandhammer.animationsDescriptions'}}}</p>
+    {{#if activated}}
+
+    <div class="flexrow">
+        <button type="button" data-action="overwrite">{{localize 'Overwrite'}}</button>
+        <button type="button" data-action="merge">{{localize 'Merge'}}</button>
+    </div>
+    <span class="hint">{{localize 'DSASETTINGS.configureAutomatedAnimationsHint'}}</span>
+    {{else}}
+    <div class="flexrow">
+        <p><b>{{localize 'dsa5-glueandhammer.animationsNotFound'}}</b></p>
+    </div>
+    {{/if}}
+</div>

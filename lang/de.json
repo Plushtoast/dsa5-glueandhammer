@@ -1,6 +1,12 @@
 {
     "DSASETTINGS": {
         "configureSplatter": "Splatter konfigurieren",
-        "configureSplatterHint": "Konfiguriere alle notwendigen Einstellungen für das Modul Splatter automatisch."
+        "configureSplatterHint": "Konfiguriere alle notwendigen Einstellungen für das Modul Splatter automatisch.",
+        "configureAutomatedAnimations": "Automated Animations",
+        "configureAutomatedAnimationsHint": "Importiere Animationseinstellungen für das Modul Automated Animations."
+    },
+    "dsa5-glueandhammer": {
+        "animationsDescriptions": "Importiere die Konfigurationsdatei für das Automated Animations Modul. Sie richtet viele vorkonfigurierte Animationen für Zauber und Angriffe ein. Falls dir etwas fehlt oder nicht funktioniert, kannst du gerne Verbesserungen auf <a href=\"https://github.com/Plushtoast/dsa5-glueandhammer\" target=\"_blank\">GitHub</a> bereitstellen.",
+        "animationsNotFound": "Du hast Automated Animations nicht installiert oder aktiviert. Bitte installiere das Modul, um die Animationen zu nutzen."
     }
 }
