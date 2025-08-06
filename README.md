@@ -4,7 +4,7 @@ This modules provides everything that doesn't quite fit (yet?) into the TDE/DSA 
 
 ## Installation - Auto Installer
 
-In the FVTT Game Systems Menu, click Install Module and enter the Manifest URL: `https://raw.githubusercontent.com/Plushtoast/dsa5-glueandhammer/master/module.json`
+In the FVTT Game Systems Menu, click Install Module and enter the Manifest URL: `https://raw.githubusercontent.com/Plushtoast/dsa5-glueandhammer/foundry13/module.json`
 
 ## Current Features
 
